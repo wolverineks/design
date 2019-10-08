@@ -39,8 +39,7 @@
   "scripts": {
     "test": "jest",
     "dev": "next",
-    "build": "next build",
-    "now-build": "next build && next export -o dist",
+    "build": "build-storybook -c .storybook -o public",
     "cypress": "cypress open",
     "spec": "start-server-and-test dev http://localhost:3000 cypress",
     "storybook": "start-storybook -p 6006",

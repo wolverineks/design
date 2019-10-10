@@ -37,11 +37,7 @@
     "react": "^16.6.3"
   },
   "scripts": {
-    "test": "jest",
-    "dev": "next",
     "build": "build-storybook -c .storybook -o public",
-    "cypress": "cypress open",
-    "spec": "start-server-and-test dev http://localhost:3000 cypress",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

@@ -5,7 +5,7 @@
   "author": "Michael Chan <mijoch@gmail.com>",
   "homepage": "https://github.com/planningcenter/design#readme",
   "license": "MIT",
-  "main": "dist/sweetalert2.js",
+  "main": "dist/alert.js",
   "files": [
     "dist",
     "css"
